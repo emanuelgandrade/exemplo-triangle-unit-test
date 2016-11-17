@@ -11,7 +11,7 @@ public class Triangulo implements ITriangulo {
 			retorno = NAO_E_TRIANGULO;
 		} else {
 			if (lado1 == lado2 && lado2 == lado3) {
-				retorno = TRIANGULO_EQUILATERO;
+				retorno = TRIANGULO_ESCALENO;
 			} else if (lado1 == lado2 || lado2 == lado3 || lado1 == lado3) {
 				retorno = TRIANGULO_ISOSCELES;
 			} else {

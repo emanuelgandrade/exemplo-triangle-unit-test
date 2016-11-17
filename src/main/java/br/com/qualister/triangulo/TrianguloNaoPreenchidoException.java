@@ -6,5 +6,5 @@ public class TrianguloNaoPreenchidoException extends Exception {
 	
 	public TrianguloNaoPreenchidoException() {
 		super("Lado não preenchido!");
-	}
+	};
 }
