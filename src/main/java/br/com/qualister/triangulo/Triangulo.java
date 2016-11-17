@@ -16,7 +16,7 @@ public class Triangulo implements ITriangulo {
 				retorno = TRIANGULO_ISOSCELES;
 			} else {
 				retorno = TRIANGULO_ESCALENO;
-			};
+			},
 		}
 		return retorno;
 		
